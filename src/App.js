@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// Component bản chất là một function return về một JSX mô tả giao diện sẽ được hiển thị
 
+// import Welcome from "./1_Component/Welcome";
+import Home from "./BT_HomeLayout/Home";
+import Shop from "./BT_ShopLayout/Shop";
+
+// JSX: JavaScript + XML, cho phép viết HTML trong JavaScript
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    <Shop/>
+  </div>
+  )
 }
 
 export default App;
