@@ -4,6 +4,7 @@
 import Databiding from "./2_DataBinding/Databiding";
 import ConditionalRendering from "./3_ConditionalRendering/ConditionalRendering";
 import List from "./4_List/List";
+import Event from "./5_Event/Event";
 import Home from "./BT_HomeLayout/Home";
 import Shop from "./BT_ShopLayout/Shop";
 
@@ -11,7 +12,7 @@ import Shop from "./BT_ShopLayout/Shop";
 function App() {
   return (
   <div>
-    <List/>
+    <Event/>
   </div>
   )
 }
