@@ -43,6 +43,7 @@ function Event() {
 
         {/* Nếu hàm xử lý sự kiện cần nhận vào một tham số, ta sẽ đưa vào onClick một hàm ẩn danh (thường viết bằng arrow function). Khi user click vào button, React sẽ gọi tới hàm ẩn danh này, và hàm này sẽ gọi tới hàm xử lý sự kiện và truyền vào tham số */}
         <button onClick={() => handleGetMessage("Hello BC42")}>Button</button>
+        {/* <button onClick={() => alert("Clicked")}>Click</button> */}
     </div>
   )
 }
