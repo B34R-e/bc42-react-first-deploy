@@ -8,13 +8,14 @@ import Event from "./5_Event/Event";
 import Style from "./6_Style/Style";
 import State from "./7_State/State";
 import Home from "./BT_HomeLayout/Home";
+import SelectCar from "./BT_SelectCar/SelectCar";
 import Shop from "./BT_ShopLayout/Shop";
 
 // JSX: JavaScript + XML, cho phép viết HTML trong JavaScript
 function App() {
   return (
   <div>
-    <State/>
+    <SelectCar/>
   </div>
   )
 }
