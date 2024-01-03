@@ -6,6 +6,7 @@ import ConditionalRendering from "./3_ConditionalRendering/ConditionalRendering"
 import List from "./4_List/List";
 import Event from "./5_Event/Event";
 import Style from "./6_Style/Style";
+import State from "./7_State/State";
 import Home from "./BT_HomeLayout/Home";
 import Shop from "./BT_ShopLayout/Shop";
 
@@ -13,7 +14,7 @@ import Shop from "./BT_ShopLayout/Shop";
 function App() {
   return (
   <div>
-    <Style/>
+    <State/>
   </div>
   )
 }

@@ -6,6 +6,7 @@ import Child from './Child';
 
 // Import css module
 import style from './style.module.css';
+import childStyle from './child.module.css'
 
 function Style() {
   return (
@@ -22,6 +23,9 @@ function Style() {
 
          {/* CSS module */}
          <h1 className={style.heading}>Hello CSS module</h1>
+
+         {/* Nhiều classes trong một thẻ */}
+         <h1 className={`${childStyle.heading} ${childStyle.content}`}>Hello CSS many classes</h1>
     </div>
 
     
