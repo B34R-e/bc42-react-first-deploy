@@ -15,7 +15,7 @@ import Shop from "./BT_ShopLayout/Shop";
 function App() {
   return (
   <div>
-    <SelectCar/>
+    <State/>
   </div>
   )
 }

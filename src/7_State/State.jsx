@@ -16,6 +16,25 @@ function State() {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
+    const [colors, setColors] = useState(['red', 'green', 'blue']);
+
+    const handleAddColor = () => {
+        const color = prompt("Input your color: ");
+        // Làm sao để thêm color vừa nhập vào danh sách colors
+
+        // Bởi vì không được thay đổi trực tiếp state mà phải thông qua setter nên ta không thể dùng colors.push(color)
+        // Sử dụng spread Operator để sao chép những phần tử hiện có của state và thêm một phần tử mới vào
+        // => Luôn tạo ra 1 array mới và thay đổi trên nó, sau đó đưa array mới vào hàm setter
+        setColors([...colors,color]);
+    }
+
+    const handleRemoveColor = () => {
+        const color = prompt("Input color you want to remove: ");
+
+        const newColors = colors.filter((item) => item != color);
+        setColors(newColors)
+    }
+
   return (
     <div>
         <h1>State</h1>
@@ -34,6 +53,12 @@ function State() {
                 <h1>Please Login</h1>
                 <button onClick={() => setIsLoggedIn(true)}>Login</button>
             </div>}
+
+        <hr />
+
+        <p>Color: {colors.join(", ")}</p>
+        <button onClick={handleAddColor}>Add Color</button>
+        <button onClick={handleRemoveColor}>Remove Color</button>
     </div>
   )
 }
