@@ -13,12 +13,13 @@ import SelectCar from "./BT_SelectCar/SelectCar";
 import ShoeShop from "./BT_ShoeShop/ShoeShop";
 import Shop from "./BT_ShopLayout/Shop";
 import ShoppingCart from "./BT_ShoppingCart/ShoppingCart";
+import UserManagement from "./BT_UserManagement/UserManagement";
 
 // JSX: JavaScript + XML, cho phép viết HTML trong JavaScript
 function App() {
   return (
   <div>
-    <ShoppingCart/>
+    <UserManagement/>
   </div>
   )
 }
