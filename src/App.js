@@ -20,7 +20,7 @@ import UserManagement from "./BT_UserManagement/UserManagement";
 function App() {
   return (
   <div>
-    <Effect/>
+    <UserManagement/>
   </div>
   )
 }

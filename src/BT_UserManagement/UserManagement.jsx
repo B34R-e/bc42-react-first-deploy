@@ -52,7 +52,8 @@ function UserManagement() {
         <div className='card'>
             <div className="card-header bg-dark text-white">User Form</div>
             <div className='card-body'>
-                <UserForm onSubmit={handleSubmit} selectedUser={selectedUser} key={selectedUser.id}/>
+                <UserForm onSubmit={handleSubmit} selectedUser={selectedUser}
+                onReset={() => setSelectedUser({})}/>
             </div>
         </div>
         <div className='mt-4'>
