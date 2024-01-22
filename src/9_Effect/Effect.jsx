@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Child from './Child';
+import User from './User';
 
 // useEffect(setup, deps)
 
@@ -27,7 +28,9 @@ function Effect() {
         <p>Count: {count}</p>
         <button className="btn btn-primary" onClick={() => setCount(count + 1)}>Click</button>
 
-        <Child count={count}/>
+        {count <= 10 && <Child count={count}/>}
+        <hr />
+        <User/>
     </div>
   )
 }
