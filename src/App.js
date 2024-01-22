@@ -8,6 +8,7 @@ import Event from "./5_Event/Event";
 import Style from "./6_Style/Style";
 import State from "./7_State/State";
 import Props from "./8_Props/Props";
+import Effect from "./9_Effect/Effect";
 import Home from "./BT_HomeLayout/Home";
 import SelectCar from "./BT_SelectCar/SelectCar";
 import ShoeShop from "./BT_ShoeShop/ShoeShop";
@@ -19,7 +20,7 @@ import UserManagement from "./BT_UserManagement/UserManagement";
 function App() {
   return (
   <div>
-    <UserManagement/>
+    <Effect/>
   </div>
   )
 }
