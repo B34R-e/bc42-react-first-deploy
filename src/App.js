@@ -1,6 +1,7 @@
 // Component bản chất là một function return về một JSX mô tả giao diện sẽ được hiển thị
 
 // import Welcome from "./1_Component/Welcome";
+import Memo from "./10_Memo/Memo";
 import Databiding from "./2_DataBinding/Databiding";
 import ConditionalRendering from "./3_ConditionalRendering/ConditionalRendering";
 import List from "./4_List/List";
@@ -20,7 +21,7 @@ import UserManagement from "./BT_UserManagement/UserManagement";
 function App() {
   return (
   <div>
-    <UserManagement/>
+    <Memo/>
   </div>
   )
 }
