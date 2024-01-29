@@ -21,8 +21,6 @@ function Ref() {
             // logic call API
             console.log(evt.target.value);
         }, 300);
-
-        clearTimeout(timer);
     }
 
     useEffect(() => {

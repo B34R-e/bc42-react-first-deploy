@@ -3,6 +3,7 @@
 // import Welcome from "./1_Component/Welcome";
 import Memo from "./10_Memo/Memo";
 import Ref from "./11_Ref/Ref";
+import UseReducer from "./12_Hooks/UseReducer";
 import Databiding from "./2_DataBinding/Databiding";
 import ConditionalRendering from "./3_ConditionalRendering/ConditionalRendering";
 import List from "./4_List/List";
@@ -22,7 +23,7 @@ import UserManagement from "./BT_UserManagement/UserManagement";
 function App() {
   return (
   <div>
-    <Ref/>
+    <UseReducer/>
   </div>
   )
 }
