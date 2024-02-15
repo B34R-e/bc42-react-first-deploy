@@ -4,6 +4,7 @@
 import Memo from "./10_Memo/Memo";
 import Ref from "./11_Ref/Ref";
 import UseReducer from "./12_Hooks/UseReducer";
+import Redux from "./14_Redux/Redux";
 import Databiding from "./2_DataBinding/Databiding";
 import ConditionalRendering from "./3_ConditionalRendering/ConditionalRendering";
 import List from "./4_List/List";
@@ -19,11 +20,13 @@ import Shop from "./BT_ShopLayout/Shop";
 import ShoppingCart from "./BT_ShoppingCart/ShoppingCart";
 import UserManagement from "./BT_UserManagement/UserManagement";
 
+
+
 // JSX: JavaScript + XML, cho phép viết HTML trong JavaScript
 function App() {
   return (
   <div>
-    <UseReducer/>
+    <Redux/>
   </div>
   )
 }
