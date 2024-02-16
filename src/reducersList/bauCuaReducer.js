@@ -54,7 +54,7 @@ function bauCuaReducer(state = initialState, action){
             const danhSachCuocMoi = state.danhSachCuoc.map((item) => {
                 if(item.diemCuoc > 0){
                     if(xucXac.includes(item.ma)){
-                        tongDiemCuocMoi += item.diemCuoc;
+                        tongDiemCuocMoi += item.diemCuoc * (xucXac.filter((xucXacItem) => xucXacItem == item.ma).length + 1);
                     }
                 }
                 return {...item, diemCuoc: 0}
